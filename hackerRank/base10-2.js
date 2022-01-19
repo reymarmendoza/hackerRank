@@ -52,9 +52,7 @@ function main() {
     
     if (quotient === 1) {
       oneCounter++
-      if (oneCounter > max) {
-        max = oneCounter
-      }
+      if (oneCounter > max) max = oneCounter        
     } else {
       oneCounter = 0
     }
